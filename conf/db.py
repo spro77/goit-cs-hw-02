@@ -12,7 +12,6 @@ class Base(DeclarativeBase):
     pass
 
 
-# Dependency
 def get_db():
     db = SessionLocal()
     try:
